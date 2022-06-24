@@ -1,0 +1,415 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Team - Wavy</title>
+
+    <script src="./js/index.js"></script>
+    <!-- animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- bootstrap5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+
+    <!-- file css -->
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body >   
+    <div id="wrapper">
+        <header>
+            <img class="bg-yellow" src="./img/yellow_top_wave_01.png" alt="" />
+            <div class="container" >
+                <button class="openbtn" onclick="openNav()">☰</button>
+                <div class="header-nav" id="header-fix">
+                    <div id="header-lg" class="header-logo">
+                        <img src="./img/crest.png" alt="" />
+                    </div>
+                    <div id="mySidebar" class="sidebar">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <img src="./img/crest.png" alt="">
+                        <nav id="navbar_main" class="navbar navbar-expand-lg navbar-dark">
+                            <div class="container-fluid">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                            Home
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Wavy</a></li>
+                                            <li><a href="#">Sunny</a></li>
+                                            <li><a href="#">Shady</a></li>
+                                        </ul>
+                                    </li>
+        
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                            About
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">About Us</a></li>
+                                            <li><a href="#">About Me</a></li>
+                                            <li><a href="#">Our Team</a></li>
+                                            <li><a href="#">History</a></li>
+                                            <li><a href="#">Testimonials</a></li>
+                                            <li><a href="#">Contact</a></li>
+                                            <li><a href="#">Coming Soon</a></li>
+                                            <li><a href="#">404</a></li>
+                                        </ul>
+                                    </li>
+        
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                            Course
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Courses</a></li>
+                                            <li><a href="#">Single Course</a></li>
+                                            <li><a href="#">Schedule</a></li>
+                                            <li><a href="#">Workshop</a></li>
+                                            <li><a href="#">Workshop & Events</a></li>
+                                            <li><a href="#">Get Quote</a></li>
+                                        </ul>
+                                    </li>
+        
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                            Blogs
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Standard view</a></li>
+                                            <li><a href="#">Columns view</a></li>
+                                            <li><a href="#">Simple view</a></li>
+                                            <li><a href="#">Grid view</a></li>
+                                            <li><a href="#">Single Post</a></li>
+                                            <li><a href="#">Galleries</a></li>
+                                        </ul>
+                                    </li>
+        
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                            Shop
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Products</a></li>
+                                            <li><a href="#">Cart</a></li>
+                                            <li><a href="#">Checkout</a></li>
+                                            <li><a href="#">My Account</a></li>
+                                        </ul>
+                                    </li>
+        
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                            Elements
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Base</a></li>
+                                            <li><a href="#">Common</a></li>
+                                            <li><a href="#">Presentational</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <div class="header-contact">
+                            <div class="contact-phone">
+                                <a href="tel:(+1) 555 234-8765">(+1) 555 234-8765</a>
+                            </div>
+                            <div class="contact-icon">
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-youtube"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </header>
+
+        <section class="carousel">
+            <img class="bg-purple" src="./img/Violet_top_left_wave.png" alt="" />
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="item-left animate__animated animate__fadeInLeft">
+                            <span>ABOUT US</span>
+                            <h1>The language teaching experts</h1>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="item-right animate__animated animate__fadeIn">
+                            <img src="./img/hero_team.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="member">
+            <img class="backgr-white" src="./img/Wave_White_bottom_right_shape_01.png" alt="" />
+            <div class="container row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="member-item animate__animated animate__fadeIn">
+                        <div class="item-img">
+                            <img src="./img/teacher_1.jpg" alt="" />
+                        </div>
+                        <div class="item-text">
+                            <span>ITALIAN</span>
+                            <h1>July Roberts</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="member-item animate__animated animate__fadeIn animate__delay-1s">
+                        <div class="item-img">
+                            <img src="./img/teacher_2.jpg" alt="" />
+                        </div>
+                        <div class="item-text">
+                            <span>FRENCH</span>
+                            <h1>Jon Stone</h1>
+                            <p>Nanotechnology immersion along the information.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="member-item animate__animated animate__fadeIn animate__delay-2s">
+                        <div class="item-img">
+                            <img src="./img/teacher_3.jpg" alt="" />
+                        </div>
+                        <div class="item-text">
+                            <span>JAPANESE</span>
+                            <h1>Emma Stone</h1>
+                            <p>Bring to the table win-win survival strategies to ensure.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="member-item animate__animated animate__fadeIn animate__delay-3s">
+                        <div class="item-img">
+                            <img src="./img/teacher_4.jpg" alt="" />
+                        </div>
+                        <div class="item-text">
+                            <span>CHINESE</span>
+                            <h1>Mark Lee</h1>
+                            <p>
+                                Proactive domination. At the end of the day, going forward.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="member-item animate__animated animate__fadeIn">
+                        <div class="item-img">
+                            <img src="./img/teacher_5.jpg" alt="" />
+                        </div>
+                        <div class="item-text">
+                            <span>RUSSIAN</span>
+                            <h1>John Doe</h1>
+                            <p>A new normal that has evolved from generation X.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="member-item animate__animated animate__fadeIn animate__delay-1s">
+                        <div class="item-img">
+                            <img src="./img/teacher_6.jpg" alt="" />
+                        </div>
+                        <div class="item-text">
+                            <span>SWEDEN</span>
+                            <h1>Jane Smith</h1>
+                            <p>Heading towards a streamlined cloud solution.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="member-item animate__animated animate__fadeIn animate__delay-2s">
+                        <div class="item-img">
+                            <img src="./img/teacher_7.jpg" alt="" />
+                        </div>
+                        <div class="item-text">
+                            <span>SPANISH</span>
+                            <h1>Hanna Alverez</h1>
+                            <p>Content in real-time will have multiple touchpoints.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="member-item animate__animated animate__fadeIn animate__delay-3s">
+                        <div class="item-img">
+                            <img src="./img/teacher_8.jpg" alt="" />
+                        </div>
+                        <div class="item-text">
+                            <span>ITALIAN</span>
+                            <h1>July Roberts</h1>
+                            <p>Capitalize on low hanging fruit to identify a ballpark.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="register">
+            <img class="bg-purple-bottom" src="./img/accent_bottom_wave_01.png" alt="" />
+            <div class="container row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="item-left animate__animated animate__fadeInLeft">
+                        <img src="./img/conatct_inner.png" alt="" />
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="item-right animate__animated animate__fadeIn">
+                        <h1>Find Your Course</h1>
+                        <form class="row g-3 needs-validation" novalidate>
+                            <div class="col-md-6 form-item">
+                                <div class="input-group has-validation">
+                                    <span class="input-group-text" id="inputGroupPrepend"><i
+                                            class="fa-solid fa-user mt-1"></i></span>
+                                    <input type="text" class="form-control" id="validationCustomUsername"
+                                        placeholder="Name" required />
+                                    <div class="invalid-feedback">
+                                        Please choose a username.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 form-item">
+                                <div class="input-group has-validation">
+                                    <span class="input-group-text" id="inputGroupPrepend"><i
+                                            class="fa-solid fa-envelope mt-1"></i></span>
+                                    <input type="text" class="form-control" id="validationCustomEmail"
+                                        placeholder="Email" required />
+                                    <div class="invalid-feedback">Please enter you email.</div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 form-item">
+                                <div class="input-group has-validation">
+                                    <span class="input-group-text" id="inputGroupPrepend"><i
+                                            class="fa-solid fa-graduation-cap mt-1"></i></span>
+                                    <select class="form-select" id="validationCustom04" required>
+                                        <option selected disabled value="">English</option>
+                                        <option>Spain</option>
+                                        <option>French</option>
+                                        <option>German</option>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        Please select your language.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 form-item">
+                                <div class="input-group has-validation">
+                                    <span class="input-group-text" id="inputGroupPrepend"><i
+                                            class="fa-solid fa-message mt-1"></i></span>
+                                    <textarea class="form-control" placeholder="Leave a comment here"
+                                        id="floatingTextarea2" style="height: 100px"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="col-12 form-item">
+                                <button class="btn btn-primary" type="submit">SEND</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="bg-footer">
+                <img src="./img/footer_background.jpg" alt="">
+            </div>
+            <div class="container row">
+                <div class="col-lg-3 col-md-6 col-sm-12 animate__animated animate__fadeIn">
+                    <div class="item-contact ">
+                        <h1>Contact</h1>
+                        <ul>
+                            <li><a href="#">Franklin St, Greenpoint Ave</a></li>
+                            <li><a href="#">+2342 5446 67</a></li>
+                            <li><a href="#">Monday - Friday: 8 AM - 5 PM</a></li>
+                            <li>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-youtube"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 animate__animated animate__fadeIn animate__delay-1s">
+                    <div class="footer-item item-quicklink">
+                        <h1>Quick Links</h1>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Courses</a></li>
+                            <li><a href="#">Schedule</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 animate__animated animate__fadeIn animate__delay-2s">
+                    <div class="footer-item item-about">
+                        <h1>About</h1>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">Get Quote</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 animate__animated animate__fadeIn animate__delay-3s">
+                    <div class="footer-item item-newsletter">
+                        <h1>Newsletter</h1>
+                        <div class="item-sub">
+                            <form class="row g-3 needs-validation" novalidate>
+                                <div class="col-12 input-box">
+                                    <label for="validationCustom01" class="form-label"></label>
+                                    <input type="email" class="form-control" id="validationCustom01"
+                                        placeholder="Your email" required />
+                                    <div class="valid-feedback">Looks good!</div>
+                                </div>
+                                <div class="col-12 input-btn">
+                                    <button class="btn" type="submit">Submit form</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
